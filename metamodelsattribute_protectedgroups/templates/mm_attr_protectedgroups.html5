@@ -1,0 +1,8 @@
+<span class="groups"><?php if ($this->raw): ?>
+<ul>
+<?php foreach ($this->raw as $group): ?>
+<li><?php echo $group; ?></li>
+<?php endforeach; ?>
+</ul>
+<?php endif; ?>
+</span>
